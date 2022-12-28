@@ -18,6 +18,7 @@ const StyledImageProject = styled.div`
   justify-content: space-around;
   padding: 10px 20px 10px 20px;
   justify-self: end;
+  margin-top: 30px;
 `
 
 export default function ImageProject({ children }) {

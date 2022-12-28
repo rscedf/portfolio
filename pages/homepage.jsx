@@ -21,8 +21,16 @@ function HomePage() {
 
       <SubTitle>Meus Projetos</SubTitle>
       <ImageProject>
-        <Icon iconName="gitImage" link="https://github.com/rscedf" />
-        <Icon iconName="likedinImage" link="https://github.com/rscedf" />
+        <Icon
+          iconName="socialDevImage"
+          size="300px"
+          link="https://social-dev-seven.vercel.app/login"
+        />
+        <Icon
+          iconName="jogoVelha"
+          size="150px"
+          link="https://react-jogo-da-velha-rho.vercel.app/"
+        />
         <Icon iconName="whattsImage" link="https://github.com/rscedf" />
       </ImageProject>
     </>
