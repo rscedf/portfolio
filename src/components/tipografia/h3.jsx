@@ -5,6 +5,6 @@ const StyledSubTitle = styled.h3`
   margin-left: 20px;
   color: ${(props) => props.theme.primary};
 `
-export default function SubTitle(props) {
+export default function TextH3(props) {
   return <StyledSubTitle>{props.children}</StyledSubTitle>
 }
