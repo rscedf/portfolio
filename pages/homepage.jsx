@@ -12,26 +12,52 @@ function HomePage() {
         <TextH1>Rafael Silva Cardoso</TextH1>
       </ImageWhthSpace>
       <ImageIcon>
-        <Icon iconName="gitImage" link="https://github.com/rscedf" />
-        <Icon iconName="likedinImage" link="https://github.com/rscedf" />
-        <Icon iconName="whattsImage" link="https://wa.me/5554981206328" />
-        <Icon iconName="emailImage" link="https://mail.google.com/mail/u/0/#inbox?compose=new" />
-        <Icon iconName="curriculoImage" link="https://github.com/rscedf" />
+        <Icon
+          iconName="gitImage"
+          sizeWhidt="30px"
+          sizeHeight="25px"
+          link="https://github.com/rscedf"
+        />
+        <Icon
+          iconName="likedinImage"
+          sizeWhidt="30px"
+          sizeHeight="25px"
+          link="https://github.com/rscedf"
+        />
+        <Icon
+          iconName="whattsImage"
+          sizeWhidt="30px"
+          sizeHeight="25px"
+          link="https://wa.me/5554981206328"
+        />
+        <Icon
+          iconName="emailImage"
+          sizeWhidt="30px"
+          sizeHeight="25px"
+          link="https://mail.google.com/mail/u/0/#inbox?compose=new"
+        />
+        <Icon
+          iconName="curriculoImage"
+          sizeWhidt="30px"
+          sizeHeight="25px"
+          link="https://github.com/rscedf"
+        />
       </ImageIcon>
 
       <TextH3>Meus Projetos</TextH3>
       <ImageProject>
         <Icon
           iconName="socialDevImage"
-          size="300px"
+          sizeWhidt="200px"
+          sizeHeight="150px"
           link="https://social-dev-seven.vercel.app/login"
         />
         <Icon
           iconName="jogoVelha"
-          size="150px"
+          sizeWhidt="200px"
+          sizeHeight="150px"
           link="https://react-jogo-da-velha-rho.vercel.app/"
         />
-        <Icon iconName="whattsImage" link="https://github.com/rscedf" />
       </ImageProject>
     </>
   )
