@@ -78,8 +78,18 @@ function HomePage() {
         <MyData>
           <ContainerColumn>
             <TextH3>Nome: Rafael Silva Cardoso</TextH3>
-            <TextH3>Nome: Rafael Silva Cardoso</TextH3>
-            <TextH3>Nome: Rafael Silva Cardoso</TextH3>
+            <TextH3>Idade: 45 anos</TextH3>
+            <TextH3>
+              Formação: Superior de Tecnologia em Análise e Desenvolvimento de Sistemas.
+            </TextH3>
+            <TextH3>
+              Objetivos: Trabalhar na área de desenvolvimento Front-end, Back-end e Full stack.
+            </TextH3>
+            <ImageIcon>
+              <img src={'react.jpg'} width={'30px'} height={'25px'} />
+              <img src={'node.jpg'} width={'30px'} height={'25px'} />
+              <img src={'javascript.jpg'} width={'30px'} height={'25px'} />
+            </ImageIcon>
           </ContainerColumn>
         </MyData>
       </Container>
