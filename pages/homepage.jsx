@@ -9,6 +9,7 @@ import TextH2 from '../src/components/tipografia/h1'
 import TextH3 from '../src/components/tipografia/h3'
 import Paragrafo from '../src/components/tipografia/paragrafo'
 import Icon from '../src/components/icon/icon'
+//import Input from '../src/components/inputs/input'
 
 function HomePage() {
   return (
@@ -87,13 +88,21 @@ function HomePage() {
               Objetivos: Trabalhar na área de desenvolvimento Front-end, Back-end e Full stack.
             </TextH3>
             <ImageIcon>
-              <img src={'react.jpg'} width={'30px'} height={'25px'} />
-              <img src={'node.jpg'} width={'30px'} height={'25px'} />
-              <img src={'javascript.jpg'} width={'30px'} height={'25px'} />
+              <img src={'react.jpg'} alt="React" width={'30px'} height={'25px'} />
+              <img src={'node.jpg'} alt="Node" width={'30px'} height={'25px'} />
+              <img src={'javascript.jpg'} alt="Javascript" width={'30px'} height={'25px'} />
             </ImageIcon>
           </ContainerColumn>
         </MyData>
       </Container>
+
+      <ContainerColumn>
+        <TextH2>Entre em Contato</TextH2>
+        <TextH3>Nome:</TextH3>
+        <input placeholder="Nome" type="" />
+        <TextH3>Email:</TextH3>
+        <TextH3>Mensagem:</TextH3>
+      </ContainerColumn>
     </>
   )
 }
