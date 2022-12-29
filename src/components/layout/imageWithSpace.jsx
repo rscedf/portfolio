@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+const WIDTH_BREAK = '700px'
+
 const StyledFlex = styled.div`
   display: flex;
   flex-direction: column;
@@ -17,6 +19,11 @@ const StyledImage = styled.div`
   height: 20vh;
   padding: 10px;
   border-radius: 80px;
+
+  @media (max-width: ${WIDTH_BREAK}) {
+    width: 8vh;
+    height: 12vh;
+  }
 `
 
 const StyledContainer = styled.div`

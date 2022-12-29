@@ -2,7 +2,7 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import theme from '../src/theme'
 
 const GlobalStyled = createGlobalStyle`
-  *{
+  *{    
     padding: 0;
     margin: 0;
   }    

@@ -48,14 +48,12 @@ function HomePage() {
           link="https://github.com/rscedf"
         />
       </ImageIcon>
-      <Container>
-        <TextH2>Meus Projetos</TextH2>
-        <TextH2>Meus Dados</TextH2>
-      </Container>
 
       <Container>
         <ImageProject>
           <ContainerColumn>
+            <TextH2>Meus Projetos</TextH2>
+            <TextH1></TextH1>
             <Icon
               iconName="socialDevImage"
               sizeWhidt="200px"
@@ -65,6 +63,8 @@ function HomePage() {
             <Paragrafo>social dev é uma rede social criada duranteo curso</Paragrafo>
           </ContainerColumn>
           <ContainerColumn>
+            <TextH1></TextH1>
+            <TextH1></TextH1>
             <Icon
               iconName="jogoVelha"
               sizeWhidt="200px"
@@ -77,6 +77,7 @@ function HomePage() {
 
         <MyData>
           <ContainerColumn>
+            <TextH2>Meus Dados</TextH2>
             <TextH3>Nome: Rafael Silva Cardoso</TextH3>
             <TextH3>Idade: 45 anos</TextH3>
             <TextH3>

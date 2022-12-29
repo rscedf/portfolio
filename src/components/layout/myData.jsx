@@ -1,19 +1,19 @@
 import styled from 'styled-components'
 
 const StyledFlex = styled.div`
-  background-color: pink;
+  //background-color: pink;
   display: flex;
   padding: 20px;
   gap: 20px 20px;
   align-items: center;
-  width: 50%;
+  width: auto;
 `
 const StyledImageProject = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 40vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;

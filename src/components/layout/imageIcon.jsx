@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+const WIDTH_BREAK = '1000px'
+
 const StyledFlex = styled.div`
   display: flex;
   flex-direction: column;
@@ -18,6 +20,10 @@ const StyledImageIcon = styled.div`
   justify-content: space-around;
   padding: 10px 20px 10px 20px;
   justify-self: end;
+
+  @media (max-width: ${WIDTH_BREAK}) {
+    gap: 15px;
+  }
 `
 
 export default function ImageIcon({ children }) {
