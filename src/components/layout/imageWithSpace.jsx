@@ -13,7 +13,6 @@ const StyledImage = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   width: 10%;
   height: 20vh;
   padding: 10px;

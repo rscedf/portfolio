@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const StyledFlex = styled.div`
-  background-color: #00ff37;
+  background-color: pink;
   display: flex;
   padding: 20px;
   gap: 20px 20px;
