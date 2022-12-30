@@ -1,4 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+
 import theme from '../src/theme'
 
 const GlobalStyled = createGlobalStyle`
@@ -8,6 +9,7 @@ const GlobalStyled = createGlobalStyle`
   }    
   body{
     font-family: 'Roboto', sans-serif;
+    
   }
 `
 function App({ Component, pageProps }) {

@@ -9,7 +9,8 @@ import TextH2 from '../src/components/tipografia/h1'
 import TextH3 from '../src/components/tipografia/h3'
 import Paragrafo from '../src/components/tipografia/paragrafo'
 import Icon from '../src/components/icon/icon'
-//import Input from '../src/components/inputs/input'
+import Input from '../src/components/inputs/input'
+import Textarea from '../src/components/inputs/textArea'
 
 function HomePage() {
   return (
@@ -98,10 +99,12 @@ function HomePage() {
 
       <ContainerColumn>
         <TextH2>Entre em Contato</TextH2>
-        <TextH3>Nome:</TextH3>
-        <input placeholder="Nome" type="" />
-        <TextH3>Email:</TextH3>
-        <TextH3>Mensagem:</TextH3>
+        <TextH3>Digite seu Nome:</TextH3>
+        <Input placeholder="Nome" type="text" />
+        <TextH3>Digite seu email:</TextH3>
+        <Input placeholder="email" type="email" />
+        <TextH3>Deixe sua mensagem:</TextH3>
+        <Textarea placeholder="mensagem" type="text" />
       </ContainerColumn>
     </>
   )

@@ -6,6 +6,7 @@ const StyledFlex = styled.div`
   gap: 20px 20px;
   width: 100%;
   margin-left: 20px;
+  margin-bottom: 30px;
 `
 export default function ContainerColumn({ children }) {
   return <StyledFlex>{children}</StyledFlex>
