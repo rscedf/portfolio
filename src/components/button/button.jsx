@@ -20,7 +20,7 @@ const ButtonContainer = styled.div`
 export default function Button() {
   return (
     <ButtonContainer>
-      <label>Button Label</label>,<button>text</button>
+      <label>Enviar Mensagem</label>,<button>Enviar</button>
     </ButtonContainer>
   )
 }

@@ -11,6 +11,7 @@ import Paragrafo from '../src/components/tipografia/paragrafo'
 import Icon from '../src/components/icon/icon'
 import Input from '../src/components/inputs/input'
 import Textarea from '../src/components/inputs/textArea'
+import Button from '../src/components/button/button'
 
 function HomePage() {
   return (
@@ -105,6 +106,7 @@ function HomePage() {
         <Input placeholder="email" type="email" />
         <TextH3>Deixe sua mensagem:</TextH3>
         <Textarea placeholder="mensagem" type="text" />
+        <Button />
       </ContainerColumn>
     </>
   )
