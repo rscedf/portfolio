@@ -15,6 +15,15 @@ const ButtonContainer = styled.div`
     border: 0;
     padding: 15px;
     border-radius: 5px;
+    ${(props) => !props.disabled && 'cursor: pointer;'}
+
+    :hover {
+      background-color: ${(props) => props.theme.primaryHover};
+    }
+
+    :disabled {
+      background-color: ${(props) => props.theme.disabled};
+    }
   }
 `
 export default function Button() {
